@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: #197dff;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 5px #00000081;
+}
+ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+li{
+    margin-left: 30px;
+}
+li a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+
+}
+li a:hover{
+    background-color: #64a7ff;
+
+
+}
